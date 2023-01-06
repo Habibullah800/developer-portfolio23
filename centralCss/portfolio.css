@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------All CSS of Banner--------------------------------------
+---------------------------------------------------------------------------------------- */
+.banner button {
+    position: absolute;
+    top: 500px;
+    right: 120px;
+    background-color: #F15B22;
+    color: white;
+    width: 170.11px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 550;
+    border: 0px;
+}
+
+.banner img {
+    width: 100%;
+    position: relative;
+}
+
+.bannerContainer h2 {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: right;
+    position: absolute;
+    top: 150px;
+    right: 120px;
+}
+
+.bannerContainer p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    position: absolute;
+    top: 400px;
+    right: 120px;
+}
+
+/*-----------------------------------------------------------------------------------------
+----------------------------------All CSS of Body Features---------------------------------
+---------------------------------------------------------------------------------------- */
+
+.featureContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 330px;
+    margin-bottom: 180px;
+}
+
+.containerDescription {
+    padding-left: 150px;
+}
+
+.containerDescription h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.containerDescription p {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.tik-mark {
+    height: 18px;
+    width: 18px;
+}
+
+.featureImage {
+    position: absolute;
+    bottom: 4px;
+    right: -31px;
+}
+
+.leftFeatureDiv {
+    background-color: #ffcccc;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+/*-----------------------------------------------------------------------------------------
+------------------------------------All CSS of Extra Item----------------------------------
+---------------------------------------------------------------------------------------- */
+.extraItem {
+    height: 240px;
+    background-color: #ffeaa7;
+    display: flex;
+    gap: 500px;
+    justify-items: end;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.extraItem h2 {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.extraItem p {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+.extraItem button {
+    background-color: #F15B22;
+    color: white;
+    border: 0px;
+    width: 170.11px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 90px;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------
+---------------------------------All CSS of Planning Section-------------------------------
+---------------------------------------------------------------------------------------- */
+.planningHeading {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.plannningSection {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.plannningSection img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plannningSection h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.plannningSection p {
+    text-align: center;
+    color: #F15B22;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+---------------------------------All CSS of Gradiant Section-------------------------------
+---------------------------------------------------------------------------------------- */
+
+.GradiantSection {
+    background-image: url('../images/watch.png');
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    height: 230px;
+    width: 68%;
+}
+
+.GradiantSection img {
+    height: 230px;
+    position: relative;
+    opacity: 0.7;
+}
+
+.GradiantSection h1 {
+    position: absolute;
+    top: 2075px;
+    right: 660px;
+    font-size: 38px;
+    color: white;
+    font-weight: 700;
+}
+
+.GradiantSection button {
+    background-color: white;
+    color: #F15B22;
+    width: 170.11px;
+    height: 48px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 550;
+    border: 0px;
+    position: absolute;
+    top: 2180px;
+    left: 270px;
+
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------All CSS of Footer--------------------------------------
+---------------------------------------------------------------------------------------- */
+.footer {
+    height: 420px;
+    background-color: #151414;
+    display: flex;
+}
+
+.footerContainer1 {
+    margin-left: 215px;
+    margin-top: 62px;
+    margin-bottom: 130px;
+    color: white;
+}
+
+.footerContainer1 img {
+    margin-right: 12px;
+}
+
+.footerContainer1 h4 {
+    font-weight: 350;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footerContainer1 h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.footerContainer2 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 195px;
+}
+
+.footerContainer2 h3 {
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footerButton {
+    background-color: white;
+    color: #F15B22;
+    width: 170.11px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.footerTextField {
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 250px;
+    padding-left: 13px;
+    margin-bottom: 15px;
+}
