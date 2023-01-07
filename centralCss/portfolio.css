@@ -5,6 +5,30 @@
 /*---------------------------------------------------------------------------------------
 ----------------------------------All CSS of Banner--------------------------------------
 ---------------------------------------------------------------------------------------- */
+
+.banner img {
+    width: 100%;
+    position: relative;
+}
+
+.bannerContainer p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    position: absolute;
+    top: 400px;
+    right: 120px;
+}
+
+.bannerContainer h2 {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: right;
+    position: absolute;
+    top: 150px;
+    right: 120px;
+}
+
 .banner button {
     position: absolute;
     top: 500px;
@@ -19,29 +43,6 @@
     border: 0px;
 }
 
-.banner img {
-    width: 100%;
-    position: relative;
-}
-
-.bannerContainer h2 {
-    font-weight: 900;
-    font-size: 60px;
-    text-align: right;
-    position: absolute;
-    top: 150px;
-    right: 120px;
-}
-
-.bannerContainer p {
-    font-weight: 400;
-    font-size: 18px;
-    text-align: right;
-    position: absolute;
-    top: 400px;
-    right: 120px;
-}
-
 /*-----------------------------------------------------------------------------------------
 ----------------------------------All CSS of Body Features---------------------------------
 ---------------------------------------------------------------------------------------- */
@@ -52,6 +53,20 @@
     justify-content: center;
     margin-top: 330px;
     margin-bottom: 180px;
+}
+
+.leftFeatureDiv {
+    background-color: #ffcccb;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.featureImage {
+    position: absolute;
+    bottom: 4px;
+    right: -31px;
 }
 
 .containerDescription {
@@ -75,23 +90,10 @@
     width: 18px;
 }
 
-.featureImage {
-    position: absolute;
-    bottom: 4px;
-    right: -31px;
-}
-
-.leftFeatureDiv {
-    background-color: #ffcccc;
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    position: relative;
-}
-
 /*-----------------------------------------------------------------------------------------
 ------------------------------------All CSS of Extra Item----------------------------------
 ---------------------------------------------------------------------------------------- */
+
 .extraItem {
     height: 240px;
     background-color: #ffeaa7;
@@ -107,7 +109,6 @@
     color: black;
     font-weight: 700;
     margin-top: 30px;
-
 }
 
 .extraItem p {
@@ -115,7 +116,6 @@
     color: black;
     font-weight: 400;
     padding-top: 20px;
-
 }
 
 .extraItem button {
@@ -128,21 +128,12 @@
     font-size: 16px;
     font-weight: 550;
     margin-top: 90px;
-
 }
 
 
 /*-----------------------------------------------------------------------------------------
 ---------------------------------All CSS of Planning Section-------------------------------
 ---------------------------------------------------------------------------------------- */
-.planningHeading {
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 60px;
-    text-align: center;
-    margin-top: 90px;
-
-}
 
 .plannningSection {
     display: flex;
@@ -150,6 +141,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
+}
+
+.planningHeading {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top: 90px;
 }
 
 .plannningSection img {
@@ -165,9 +164,8 @@
 
 .plannningSection p {
     text-align: center;
-    color: #F15B22;
+    color: #636e72;
 }
-
 
 /*-----------------------------------------------------------------------------------------
 ---------------------------------All CSS of Gradiant Section-------------------------------
@@ -190,7 +188,7 @@
 
 .GradiantSection h1 {
     position: absolute;
-    top: 2075px;
+    top: 2390px;
     right: 660px;
     font-size: 38px;
     color: white;
@@ -207,19 +205,20 @@
     font-weight: 550;
     border: 0px;
     position: absolute;
-    top: 2180px;
+    top: 2495px;
     left: 270px;
-
 }
 
 /*---------------------------------------------------------------------------------------
 ----------------------------------All CSS of Footer--------------------------------------
 ---------------------------------------------------------------------------------------- */
+
 .footer {
     height: 420px;
     background-color: #151414;
     display: flex;
 }
+
 
 .footerContainer1 {
     margin-left: 215px;
@@ -232,6 +231,12 @@
     margin-right: 12px;
 }
 
+.footerContainer1 h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
 .footerContainer1 h4 {
     font-weight: 350;
     font-size: 16px;
@@ -239,11 +244,6 @@
     margin-bottom: 24px;
 }
 
-.footerContainer1 h2 {
-    font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 18px;
-}
 
 .footerContainer2 {
     margin-top: 70px;
@@ -260,16 +260,6 @@
     margin-bottom: 20px;
 }
 
-.footerButton {
-    background-color: white;
-    color: #F15B22;
-    width: 170.11px;
-    height: 52px;
-    border-radius: 7px;
-    font-size: 16px;
-    font-weight: 550;
-}
-
 .footerTextField {
     height: 50px;
     color: white;
@@ -280,3 +270,17 @@
     padding-left: 13px;
     margin-bottom: 15px;
 }
+
+.footerButton {
+    background-color: white;
+    color: #F15B22;
+    width: 170.11px;
+    height: 52px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+/*---------------------------------------------------------------------------------------
+----------------------------------------The End------------------------------------------
+---------------------------------------------------------------------------------------- */
